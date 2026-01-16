@@ -35,6 +35,8 @@ It validates key user flows on https://www.saucedemo.com including login scenari
 
 ## ▶️ How to Run
 
+> ℹ️ Tests run headless in CI (GitHub Actions) and can run headed locally for debugging.
+
 ### 1) Install dependencies
 
 ```bash
@@ -64,19 +66,14 @@ npx playwright show-report
 
 ## ☑️ Features
 
-Reusable and maintainable page object model
-
-Configured test hooks and environment in Playwright
-
-CI/CD integration via GitHub Actions
-
-Error trace and screenshots on failure
-
-Tagged smoke tests for quick verification
-
-API testing with Playwright request
-
-UI + API combined test example (data-driven approach)
+- End-to-End UI automation with Playwright (TypeScript)
+- Page Object Model (POM) for maintainable tests
+- Smoke test tagging for quick verification
+- Negative scenarios for error handling
+- API testing using Playwright request
+- UI + API combined (data-driven) test example
+- HTML report, trace, screenshot & video on failure
+- CI pipeline with GitHub Actions (headless)
 
 ---
 
