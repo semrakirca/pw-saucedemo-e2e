@@ -10,11 +10,11 @@ It validates key user flows on https://www.saucedemo.com including login scenari
 
 ## 🔧 Tech Stack
 
-- **Playwright Test Runner**  
-- **TypeScript**  
-- **Page Object Model (POM)** architecture  
-- **Smoke test grouping using tags**  
-- **HTML report / trace / screenshots on fail**  
+- **Playwright Test Runner**
+- **TypeScript**
+- **Page Object Model (POM)** architecture
+- **Smoke test grouping using tags**
+- **HTML report / trace / screenshots on fail**
 - **GitHub Actions CI** (automated checks on push)
 
 ---
@@ -22,8 +22,14 @@ It validates key user flows on https://www.saucedemo.com including login scenari
 ## 🧪 Test Coverage
 
 ### Smoke Tests
-- Login with valid credentials  
-- Login failure with invalid credentials  
+
+- Login with valid credentials
+- Login failure with invalid credentials
+
+### API Tests (Playwright request)
+
+- GET endpoint validation (status + payload)
+- Negative API scenario (404)
 
 ---
 
@@ -37,18 +43,23 @@ npx playwright install
 ```
 
 ### 2) Run all tests
+
 ```bash
 npx playwright test
 ```
 
 ### 3) Run only smoke tests
+
 ```bash
 npx playwright test -g "@smoke"
 ```
+
 ### 4) View HTML report
+
 ```bash
 npx playwright show-report
 ```
+
 ---
 
 ## ☑️ Features
