@@ -29,8 +29,39 @@ It validates key user flows on https://www.saucedemo.com including login scenari
 
 ## ▶️ How to Run
 
-### 1) Install dependencies
+## 1) Install dependencies
 
 ```bash
 npm install
 npx playwright install
+
+## 2) Run all tests
+npx playwright test
+
+## 3) Run only smoke tests
+npx playwright test -g "@smoke"
+
+## 4) View HTML report
+npx playwright show-report
+
+☑️ Features
+
+Reusable and maintainable page object model
+
+Configured test hooks and environment in Playwright
+
+CI/CD integration via GitHub Actions
+
+Error trace and screenshots on failure
+
+Tagged smoke tests for quick verification
+
+📌 Notes
+
+This framework tests core user flows on a demo e-commerce app (SauceDemo).
+The practice reflects skills required in real QA Automation positions.
+
+👩‍💻 Author
+
+Semra K. — Junior QA Automation Engineer
+Profile: https://www.github.com/semrakirca
