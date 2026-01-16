@@ -74,6 +74,10 @@ Error trace and screenshots on failure
 
 Tagged smoke tests for quick verification
 
+API testing with Playwright request
+
+UI + API combined test example (data-driven approach)
+
 ---
 
 ## 📌 Notes
