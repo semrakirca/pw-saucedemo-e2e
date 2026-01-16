@@ -29,23 +29,23 @@ It validates key user flows on https://www.saucedemo.com including login scenari
 
 ## ▶️ How to Run
 
-## 1) Install dependencies
+### 1) Install dependencies
 
 ```bash
 npm install
 npx playwright install
 ```
 
-## 2) Run all tests
+### 2) Run all tests
 ```bash
 npx playwright test
 ```
 
-## 3) Run only smoke tests
+### 3) Run only smoke tests
 ```bash
 npx playwright test -g "@smoke"
 ```
-## 4) View HTML report
+### 4) View HTML report
 ```bash
 npx playwright show-report
 ```
